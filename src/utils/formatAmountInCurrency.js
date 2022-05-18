@@ -5,5 +5,5 @@ export const formatAmountInCurrency = (amount, currency) => {
     currency,
   });
 
-  return formatter.format(amount).replace(/\u00a0/g, ' ');
+  return formatter.format(amount);
 };
