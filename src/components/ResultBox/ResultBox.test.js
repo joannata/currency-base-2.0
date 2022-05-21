@@ -17,10 +17,10 @@ describe('Component ResultBox', () => {
     ];
 
     const testCasesLessThanZero = [
-        { amount: '-1', from: 'PLN', to: 'USD' },
-        { amount: '-20', from: 'USD', to: 'PLN' },
-        { amount: '-100', from: 'PLN', to: 'USD' },
-        { amount: '-150', from: 'USD', to: 'PLN' },
+        { amount: -1, from: 'PLN', to: 'USD' },
+        { amount: -20, from: 'USD', to: 'PLN' },
+        { amount: -100, from: 'PLN', to: 'USD' },
+        { amount: -150, from: 'USD', to: 'PLN' },
     ];
 
     for(const testObj of testCases) {
